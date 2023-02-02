@@ -3,7 +3,7 @@ import sys
 import pygame
 import requests
 
-map_request = "https://static-maps.yandex.ru/1.x/?ll=137.554721,-27.358666&spn=20,20&l=sat"
+map_request = "https://static-maps.yandex.ru/1.x/?ll=137.554721,-27.358666&z=2&l=sat"
 
 response = requests.get(map_request)
 
