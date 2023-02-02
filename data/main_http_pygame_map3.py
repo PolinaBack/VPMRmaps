@@ -64,4 +64,3 @@ while running:
 
 pygame.quit()
 os.remove(map_file)
-
